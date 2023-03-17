@@ -43,6 +43,9 @@
     height: 60%;
     position: relative;
 }
+.popularImageStreamfile > img {
+    border-radius: 20px;
+}
 #avatarBox > img {
     border-radius: 20px;
 }

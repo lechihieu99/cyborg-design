@@ -10,9 +10,6 @@ import {MdAirplay} from 'react-icons/md'
 import {CgProfile} from 'react-icons/cg'
 export default class Main extends Component {
     
-    handlePage = () => {
-        window.location = './profile';
-    }
     render() {
         return(
             <>
@@ -41,7 +38,7 @@ export default class Main extends Component {
                             <div id="subHow">You are not allowed to redistribute this template's downloadable ZIP file on any other template collection website.</div>
                         </div>
                     </div>
-                    <button onClick={this.handlePage} className="buttonGoToFile">Go To Profile</button>
+                    <Link className="buttonGoToFile" to='/cyborg-design/profile'><div>Go To Profile</div></Link>
                 </div>
                 <Popular />
             </div>

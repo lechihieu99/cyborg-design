@@ -85,6 +85,11 @@
     font-size: 14px;
     cursor: pointer;
     transition: 0.5s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
 }
 .buttonGoToFile:hover {
     background-color: white;

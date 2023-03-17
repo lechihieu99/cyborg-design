@@ -29,9 +29,6 @@ class MenuBar extends Component {
             document.getElementById('specialBox').style.backgroundColor = 'rgb(255, 57, 126)';
         }
     }
-    handlePage = () => {
-        window.location = './profile';
-    }
     render() {
         return(
             <div className="menuBar">
@@ -39,7 +36,7 @@ class MenuBar extends Component {
                 <div><Link className="link" to='/cyborg-design/browse'>Browse</Link></div>
                 <div><Link className="link" to='/cyborg-design/detail'>Details</Link></div>
                 <div><Link className="link" to='/cyborg-design/stream'>Stream</Link></div>
-                <div id="specialBox" className="link" onClick={this.handlePage}>Profile<img src={avatar}></img></div>
+                <Link className="link" to='/cyborg-design/profile'><div  id="specialBox">Profile<img src={avatar}></img></div></Link>
             </div>
         );
     }

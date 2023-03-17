@@ -2,14 +2,13 @@ import React, { Component } from "react";
 import game1 from './images/game-01.jpg'
 import game2 from './images/game-02.jpg'
 import game3 from './images/game-03.jpg'
+
+import { Link } from "react-router-dom";
 import LibraryBox from "./libraryBoxPopular";
 import './library.css'
 
 
 export default class Library extends Component {
-    handlePage = () => {
-        window.location = './profile';
-    }
     
     render() 
     {
@@ -21,7 +20,7 @@ export default class Library extends Component {
                     <LibraryBox id='1' />
                     <LibraryBox id='2' />
                 </div>
-                <button onClick={this.handlePage} className="buttonLibrary">View Your Library</button>
+                <Link className="buttonLibrary" to='/cyborg-design/profile'><div>View Your Library</div></Link>
             </div>
         );
     }

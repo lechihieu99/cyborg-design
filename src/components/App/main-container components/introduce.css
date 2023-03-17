@@ -36,6 +36,9 @@
 #welcome , #titleIntroduce {
     padding-left: 10%;
 }
+#buttonBrowse {
+    text-decoration: none;
+}
 
 #buttonBrowse:hover {
     background-color: white;

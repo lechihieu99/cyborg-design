@@ -20,7 +20,7 @@
     cursor: pointer;
     transition: 0.5s linear;
 }
-.link:nth-child(5):hover {
+#specialBox:hover {
     background-color: rgba(255, 57, 126, 0.423);
     color: white;
 }
@@ -71,7 +71,7 @@
     text-align: center;
 }
 
-.menuBar > div:nth-child(5) {
+.link:nth-child(5) {
     width: 18%;
     height: 100%;
     display: flex;
@@ -82,7 +82,17 @@
     border-radius: 40px;
     background-color: rgba(115, 115, 115, 0.21);
 }
-.menuBar > div:nth-child(5) > img {
+#specialBox {
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#specialBox > img {
     border-radius: 20px;
     
 }
@@ -103,7 +113,7 @@
     .menuBar {
         gap: 20px;
     }
-    .menuBar > div:nth-child(5) {
+    .link:nth-child(5) {
         height: 70%;
         width: 28%;
     }
@@ -123,7 +133,7 @@
         grid-column-end: 3;
         width: 100%;
     }
-    .menuBar > div:nth-child(5) {
+    .link:nth-child(5) {
         height: 100%;
     }
 }
