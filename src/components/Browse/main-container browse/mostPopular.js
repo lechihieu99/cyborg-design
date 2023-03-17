@@ -4,6 +4,8 @@ import image2 from './images/avatar-02.jpg'
 import image3 from './images/avatar-03.jpg'
 import image4 from './images/avatar-04.jpg'
 
+import { Link } from "react-router-dom";
+
 import livestream1 from './images/stream-01.jpg'
 import livestream2 from './images/stream-02.jpg'
 import livestream3 from './images/stream-03.jpg'
@@ -50,9 +52,6 @@ class PopularBox extends Component {
     }
 }
 export default class Popular extends Component {
-    handlePage = () => {
-        window.location = './stream';
-    }
     render() {
         return(
             <div className="popularBrowse">
@@ -63,7 +62,7 @@ export default class Popular extends Component {
                     <PopularBox id='2'/>
                     <PopularBox id='3'/>
                 </div>
-                <button onClick={this.handlePage} className="buttonStream">Discover All Streams</button>
+                <Link className="buttonStream" to='/cyborg-design/stream'><div>Discover All Streams</div></Link>
             </div>
         );
     }

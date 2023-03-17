@@ -114,6 +114,10 @@
     border-radius: 30px;
     font-size: 16px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 .buttonStream:hover {
     background-color: white;
