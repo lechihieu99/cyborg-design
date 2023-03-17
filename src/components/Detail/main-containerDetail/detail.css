@@ -1,0 +1,123 @@
+.detail {
+    width: 90%;
+    background-color: rgb(29, 29, 37);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+}
+.gridDetail {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.inforBoxLeft {
+    width: calc(50% - 10px);
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(115, 115, 115, 0.104);
+    border-radius: 30px;
+}
+.leftBoxLeft {
+    width: 70%;
+    padding-left: 30px;
+}
+.rightBoxLeft {
+    width: calc(30% - 60px);
+    text-align: right;
+}
+.boxRight {
+    width: calc(50% - 10px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(115, 115, 115, 0.104);
+    border-radius: 30px;
+    justify-content: space-evenly;
+} 
+.boxRight > div {
+    text-align: center;
+}
+
+.gridDetail2 {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.gridDetail2 > div {
+    width: 30%;
+}
+.gridDetail2 > div > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.textDetail {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+.buttonDownload {
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    background-color: transparent;
+    color: rgb(255, 57, 126);
+    border: 1px solid rgb(255, 57, 126);
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+.buttonDownload:hover {
+    background-color: white;
+    color: rgb(255, 57, 126);
+}
+
+@media only screen and (max-width: 820px) {
+    .inforBoxLeft {
+        height: 10vh;
+    }
+    .leftBoxLeft > #nameBox {
+        font-size: 14px;
+    }
+    .leftBoxLeft {
+        width: 60%;
+    }
+    .rightBoxLeft {
+        width: 20%;
+    }
+    .boxRight > #star , 
+    .boxRight > #download ,
+    .boxRight > #size ,
+    .boxRight > #kindofGame {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .gridDetail {
+        flex-direction: column;
+    }
+    .inforBoxLeft{
+        width: 100%;
+        height: 10vh;
+    }
+    .boxRight {
+        width: 100%;
+        height: 10vh;
+    }
+    .buttonDownload {
+        font-size: 13px;
+        height: 30px;
+    }
+}

@@ -1,0 +1,298 @@
+
+.mainProfile {
+    width: 88%;
+    height: fit-content;
+    transform: translateX(7%);
+    color: white;
+    padding-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+    background-color: rgba(115, 115, 115, 0.104);
+    z-index: 1;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-bottom: 5vh;
+}
+.moreInfor {
+    width: calc(90% - 40px);
+    display: grid;
+    padding: 20px;
+    grid: 370px 450px / 370px 30% auto;
+    gap: 30px;
+    background-color: rgb(29, 29, 37);
+    border-radius: 20px;
+    position: relative;
+}
+.avatarProfile > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.buttonStatus {
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: rgb(255, 57, 126);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.nameProfile {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.textProfile {
+    padding-bottom: 20px;
+}
+.buttonStartLive {
+    width: 150px;
+    height: 50px;
+    color: rgb(255, 57, 126);
+    background: transparent;
+    border: 1px solid rgb(255, 57, 126);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+.buttonStartLive:hover {
+    background-color: rgba(255, 255, 255, 0.193);
+    color: white;
+}
+.parentBoxProfile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.boxProfile {
+    width: calc(100% - 20px);
+    height: 70%;
+    background-color: rgba(150, 150, 150, 0.15);
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+#listProfile {
+    width: calc(100% - 20px);
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid rgb(150, 150, 150);
+}
+#listProfile:nth-child(4) {
+    border-bottom: none;
+}
+#left {
+    width: 60%;
+}
+#right {
+    width: 40%;
+    text-align: right;
+}
+.loadMore {
+    width: 170px;
+    height: 50px;
+    background-color: rgb(255, 57, 126);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    position: absolute;
+    bottom: -20px;
+    left: calc(50% - 85px);
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+.loadMore:hover {
+    background-color: white;
+    color: rgb(255, 57, 126);
+}
+.clipsContent {
+    width: 100%;
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border-top: 1px solid rgba(150, 150, 150, 0.15);
+}
+.clips {
+    width: calc(100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#titleClips {
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+.clipsBox {
+    width: 23%;
+    height: 35vh;
+    background-color: rgba(150, 150, 150, 0.15);
+    border-radius: 20px;
+}
+.imageClip {
+    width: 90%;
+    height: 70%;
+    margin-left: 5%;
+    padding-top: 10px;
+    position: relative;
+}
+.imageClip > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.imageClip > a {
+    color: rgb(255, 57, 126);
+    position: absolute;
+    left: calc(50% - 10px);
+    top: calc(50% - 10px);
+}
+.contentClip {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#numberClip {
+    width: 60%;
+}
+#viewClip {
+    width: 40%;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.libraryProfile {
+    width: 90%;
+    background-color: rgb(29, 29, 37);
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+.titleLibraryProfile {
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.libraryBoxProfile {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+    .moreInfor {
+        grid: 370px 450px / 370px 25% auto;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .mainProfile {
+        padding-top: 20vh;
+    }
+    .moreInfor {
+        grid: 230px 400px / 230px 25% auto;
+    }
+    .avatarProfile > img {
+        width: 230px;
+        height: 230px;
+    }
+    .information > .textProfile {
+        font-size: 12px;
+    }
+    .information > .buttonStatus {
+        height: 30px;
+    }
+    .information > .buttonStartLive {
+        height: 35px;
+    }
+    #listProfile {
+        font-size: 13px;
+    }
+    #titleClips {
+        font-size: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .clipsBox {
+        height: 28vh;
+    }
+    .contentClip {
+        font-size: 13px;
+    }
+    .titleLibraryProfile {
+        font-size: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .mainProfile {
+        padding-top: 15vh;
+    }
+    .moreInfor {
+        grid: 100px 300px auto / 100px calc(100% - 100px);
+        gap: 10px;
+        height: fit-content;
+    }
+    .avatarProfile > img {
+        width: 100px;
+        height: 100px;
+    }
+    .parentBoxProfile {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        width: calc(100% - 10px);
+    }
+    .textProfile {
+        padding-bottom: 10px;
+    }
+    .nameProfile {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .clipsContent {
+        grid-column-end: 3;
+        height: fit-content;
+    }
+    .clips {
+        display: unset;
+        display: grid;
+        grid: 20vh 20vh / calc(50% - 10px) calc(50% - 10px);
+        gap: 20px;
+        height: fit-content;
+    }
+    .clipsBox {
+        width: 100%;
+        height: 100%;
+    }
+    .imageClip {
+        height: 70%;
+    }
+    .loadMore {
+        height: 30px;
+    }
+}

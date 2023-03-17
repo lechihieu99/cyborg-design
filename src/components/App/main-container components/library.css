@@ -1,0 +1,146 @@
+.library {
+    width: 90%;
+    height: 80vh;
+    background-color: rgb(29, 29, 37);
+    border-radius: 30px;
+    position: relative;
+}
+
+#titleLibrary {
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-left: 3%;
+    padding-bottom: 30px;
+}
+
+.libraryList {
+    width: 94%;
+    padding-left: 3%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.libraryBox {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.libraryImageBox > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.libraryImageBox {
+    width: 90px;
+    height: 90px;
+}
+
+.sameBox {
+    width: 20%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.number1 {
+    padding-left: 20px;
+}
+
+#buttonDownload {
+    width: calc(20% - 90px);
+    height: 40%;
+    font-size: 14px;
+    background: none;
+    border-radius: 30px;
+    border: 1px solid rgb(116, 116, 116);
+    color: rgb(116, 116, 116);
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+#buttonDownload:hover {
+    color: white;
+}
+#companyLibraryBox , #subLib {
+    color: rgb(116, 116, 116);
+    padding-top: 10px;
+}
+
+.buttonLibrary {
+    width: 160px;
+    height: 50px;
+    font-size: 16px;
+    background-color: rgb(255, 57, 126);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    position: absolute;
+    bottom: -20px;
+    left: calc(50% - 80px);
+}
+.buttonLibrary:hover {
+    background-color: white;
+    color: rgb(255, 57, 126);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 820px) {
+    .library {
+        height: 40vh;
+    }
+    #titleLibrary {
+        font-size: 25px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .libraryImageBox {
+        width: 50px;
+        height: 50px;
+    }
+    .libraryImageBox > img {
+        border-radius: 10px;
+    }
+    .sameBox {
+        font-size: 13px;
+    }
+    #buttonDownload {
+        width: 20%;
+        font-size: 13px;
+    }
+    .buttonLibrary {
+        height: 30px;
+        bottom: -10px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .library {
+        height: 580px;
+    }
+    .libraryBox {
+        display: unset;
+        display: grid;
+        height: 150px;
+        grid: 70px 70px / 100px 80px 80px;
+    }
+    .libraryImageBox {
+        width: 70px;
+        height: 70px;
+    }
+    .number1 {
+        padding-left: 0;
+    }
+    .sameBox {
+        width: 100%;
+    }
+    #buttonDownload {
+        width: 100px;
+    }
+}

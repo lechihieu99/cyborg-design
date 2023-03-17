@@ -1,0 +1,23 @@
+.stream {
+    width: 88%;
+    height: fit-content;
+    transform: translateX(7%);
+    color: white;
+    padding-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+    background-color: rgba(115, 115, 115, 0.104);
+    z-index: 1;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-bottom: 5vh;
+    padding-top: 20vh;
+}
+@media screen and (max-width: 420px) {
+    .stream {
+        padding-top: 15vh;
+        gap: 50px;
+    }
+}
