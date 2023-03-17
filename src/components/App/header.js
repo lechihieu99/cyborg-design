@@ -35,10 +35,10 @@ class MenuBar extends Component {
     render() {
         return(
             <div className="menuBar">
-                <div><Link className="link" to='/'>Home</Link></div>
-                <div><Link className="link" to='/browse'>Browse</Link></div>
-                <div><Link className="link" to='/detail'>Details</Link></div>
-                <div><Link className="link" to='/stream'>Stream</Link></div>
+                <div><Link className="link" to='/cyborg-design'>Home</Link></div>
+                <div><Link className="link" to='/cyborg-design/browse'>Browse</Link></div>
+                <div><Link className="link" to='/cyborg-design/detail'>Details</Link></div>
+                <div><Link className="link" to='/cyborg-design/stream'>Stream</Link></div>
                 <div id="specialBox" className="link" onClick={this.handlePage}>Profile<img src={avatar}></img></div>
             </div>
         );

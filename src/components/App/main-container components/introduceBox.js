@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export default class Introduce extends Component {
     handlePage = () => {
-        window.location = '/browse';
+        window.location = './browse';
     }
     render() {
         return(

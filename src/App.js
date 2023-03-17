@@ -13,11 +13,11 @@ export default class App extends Component {
       <>
       <Router>
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/browse" component={Browse} />
-          <Route path='/detail' component={Detail} />
-          <Route path='/stream' component={Stream} />
-          <Route path='/profile' component={Profile} />
+          <Route exact path="/cyborg-design" component={Home} />
+          <Route path="/cyborg-design/browse" component={Browse} />
+          <Route path='/cyborg-design/detail' component={Detail} />
+          <Route path='/cyborg-design/stream' component={Stream} />
+          <Route path='/cyborg-design/profile' component={Profile} />
         </Switch>
       </Router>
       </>

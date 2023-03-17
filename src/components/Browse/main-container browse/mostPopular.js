@@ -51,7 +51,7 @@ class PopularBox extends Component {
 }
 export default class Popular extends Component {
     handlePage = () => {
-        window.location = '/stream';
+        window.location = './stream';
     }
     render() {
         return(

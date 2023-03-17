@@ -11,7 +11,7 @@ import {CgProfile} from 'react-icons/cg'
 export default class Main extends Component {
     
     handlePage = () => {
-        window.location = '/profile';
+        window.location = './profile';
     }
     render() {
         return(

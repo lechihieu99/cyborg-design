@@ -8,7 +8,7 @@ import './library.css'
 
 export default class Library extends Component {
     handlePage = () => {
-        window.location = '/profile';
+        window.location = './profile';
     }
     
     render() 
