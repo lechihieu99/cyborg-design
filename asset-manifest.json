@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/cyborg-design/static/css/main.c34b58f0.css",
-    "main.js": "/cyborg-design/static/js/main.874e7a51.js",
+    "main.js": "/cyborg-design/static/js/main.8e1a4b88.js",
     "static/css/987.27b8ad45.chunk.css": "/cyborg-design/static/css/987.27b8ad45.chunk.css",
     "static/js/987.425a81aa.chunk.js": "/cyborg-design/static/js/987.425a81aa.chunk.js",
-    "static/css/415.bc58c87a.chunk.css": "/cyborg-design/static/css/415.bc58c87a.chunk.css",
-    "static/js/415.d7393f81.chunk.js": "/cyborg-design/static/js/415.d7393f81.chunk.js",
+    "static/css/415.c14d50ef.chunk.css": "/cyborg-design/static/css/415.c14d50ef.chunk.css",
+    "static/js/415.deb39ec9.chunk.js": "/cyborg-design/static/js/415.deb39ec9.chunk.js",
     "static/css/928.9ad605f0.chunk.css": "/cyborg-design/static/css/928.9ad605f0.chunk.css",
     "static/js/928.2f5bf84b.chunk.js": "/cyborg-design/static/js/928.2f5bf84b.chunk.js",
     "static/css/361.c47485d5.chunk.css": "/cyborg-design/static/css/361.c47485d5.chunk.css",
@@ -50,11 +50,11 @@
     "static/media/popular-03.jpg": "/cyborg-design/static/media/popular-03.1c8955f99df2b3b94391.jpg",
     "index.html": "/cyborg-design/index.html",
     "main.c34b58f0.css.map": "/cyborg-design/static/css/main.c34b58f0.css.map",
-    "main.874e7a51.js.map": "/cyborg-design/static/js/main.874e7a51.js.map",
+    "main.8e1a4b88.js.map": "/cyborg-design/static/js/main.8e1a4b88.js.map",
     "987.27b8ad45.chunk.css.map": "/cyborg-design/static/css/987.27b8ad45.chunk.css.map",
     "987.425a81aa.chunk.js.map": "/cyborg-design/static/js/987.425a81aa.chunk.js.map",
-    "415.bc58c87a.chunk.css.map": "/cyborg-design/static/css/415.bc58c87a.chunk.css.map",
-    "415.d7393f81.chunk.js.map": "/cyborg-design/static/js/415.d7393f81.chunk.js.map",
+    "415.c14d50ef.chunk.css.map": "/cyborg-design/static/css/415.c14d50ef.chunk.css.map",
+    "415.deb39ec9.chunk.js.map": "/cyborg-design/static/js/415.deb39ec9.chunk.js.map",
     "928.9ad605f0.chunk.css.map": "/cyborg-design/static/css/928.9ad605f0.chunk.css.map",
     "928.2f5bf84b.chunk.js.map": "/cyborg-design/static/js/928.2f5bf84b.chunk.js.map",
     "361.c47485d5.chunk.css.map": "/cyborg-design/static/css/361.c47485d5.chunk.css.map",
@@ -70,6 +70,6 @@
   },
   "entrypoints": [
     "static/css/main.c34b58f0.css",
-    "static/js/main.874e7a51.js"
+    "static/js/main.8e1a4b88.js"
   ]
 }
